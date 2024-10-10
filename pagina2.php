@@ -20,7 +20,7 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            background-color: rgb(188, 251, 255);
+            background-color: rgb(161, 255, 184);
         }
 
         .menu-btn {
@@ -83,8 +83,8 @@
         }
 
         .card-container {
-            perspective: 1000px; /* Para o efeito de flip */
-            width: 28%;
+            perspective: 1000px; 
+            width: 30%;
             max-width: 250px;
             margin: 25px;
         }
@@ -98,16 +98,16 @@
         }
 
         .card:hover {
-            transform: rotateY(180deg); /* Faz o flip */
+            transform: rotateY(180deg); 
         }
 
         .card-front, .card-back {
             position: absolute;
             width: 100%;
             height: 100%;
-            backface-visibility: hidden; /* Oculta o outro lado durante o flip */
+            backface-visibility: hidden; 
         }
-        .card-front img {  /*Coloquei isso pois as imagens precisam ficar no mesmo tamanho*/
+        .card-front img {  
             width: 100%;  
             height: 200px; 
 }
@@ -175,8 +175,8 @@
 
     <div class="sidebar" id="sidebar">
         <h2>Menu</h2>
-        <a href="#section1">Página 1</a>
-        <a href="pagina2.php">Página 2</a>
+        <a href="index.html">Página 1</a>
+        <a href="#section2">Página 2</a>
     </div>
     
     <div class="main-content" id="main-content">
