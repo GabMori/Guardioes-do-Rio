@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title> Guardiões do Rio - Colecionando Ecossistemas </title>
     <link rel="stylesheet" type="text/css" href="css/pagina.css"/>
-    <link rel="stylesheet" type="text/css" href="css/pagina2.css"/>
+    <link rel="stylesheet" type="text/css" href="css/pagina1.css"/>
+    
 </head>
 <body>
 
